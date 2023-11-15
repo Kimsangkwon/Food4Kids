@@ -1,0 +1,75 @@
+.title__languageSelection {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 36px;
+}
+.language-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+  margin-bottom: 8px;
+  height: 231px;
+  width: 398px;
+}
+.language-section:nth-child(3) {
+  margin-bottom: 36px;
+}
+
+.language-card {
+  height: 211px;
+  width: 177px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid #d1d1d6;
+}
+.language-label {
+  align-self: stretch;
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+.language-card:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #f0f0f0;
+}
+
+.language-card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 63px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.language-card input[type="radio"] {
+  display: none;
+  background-color: #f0f0f0;
+}
+
+.language-card input[type="radio"]:checked + .language-card {
+  font-weight: bold;
+  color: #8e44ad;
+  background-color: #f0f0f0;
+}
+.language-card.selected {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #e0e0e0;
+}

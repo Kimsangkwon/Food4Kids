@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parent Questions</title>
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body>
+    <div class="status-container"></div>
+    <div class="container">
+      <div class="progress-bar-container">
+        <div class="progress-bar">
+          <a class="progress-bar__previous"
+            ><img
+              src="../../Images/navigate_previous.jpg"
+              alt="navigate_previous"
+          /></a>
+          <div class="progress-bar__frame">
+            <div class="progress-bar__frame__green__30"></div>
+          </div>
+        </div>
+      </div>
+      <form action="#" method="post" class="question-container">
+        <h1 class="question-title">
+          Have you used the Foodbank or other food programs in the last two
+          years?
+        </h1>
+        <div class="question-container__parent__Yes-No">
+          <label class="question-container__section__Yes-No">
+            <input type="radio" name="food-program" value="Yes" required />
+            Yes
+          </label>
+          <label class="question-container__section__Yes-No">
+            <input type="radio" name="food-program" value="No" required />
+            No
+          </label>
+        </div>
+        <button class="continue-button continue-button_noMargin" type="submit">
+          Continue
+        </button>
+      </form>
+    </div>
+    <script src="../../src/script.js"></script>
+  </body>
+</html>

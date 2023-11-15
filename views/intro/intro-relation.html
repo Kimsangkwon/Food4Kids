@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Identification</title>
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body>
+    <div class="status-container"></div>
+    <div class="container">
+      <div class="progress-bar-container">
+        <div class="progress-bar">
+          <a class="progress-bar__previous"
+            ><img
+              src="../../Images/navigate_previous.jpg"
+              alt="navigate_previous"
+          /></a>
+          <div class="progress-bar__frame">
+            <div class="progress-bar__frame__green"></div>
+          </div>
+        </div>
+      </div>
+      <div class="question-container">
+        <h1 class="question-title">What is your relation to the student?</h1>
+        <form method="post">
+          <div class="question-container__section">
+            <label class="question-container__section__card">
+              <input
+                type="radio"
+                name="relation-to-the-student"
+                value="parent-or-guardian"
+              />
+              Parent or Guardian
+            </label>
+            <label class="question-container__section__card">
+              <input
+                type="radio"
+                name="relation-to-the-student"
+                value="grandparent-or-other-family-member"
+              />
+              <p class="question-container__section__card__label">
+                Grandparent or other family member
+              </p>
+            </label>
+            <label class="question-container__section__card">
+              <input
+                type="radio"
+                name="relation-to-the-student"
+                value="teacher-or-administrator"
+              />
+              <p class="question-container__section__card__label">
+                Teacher or Administrator
+              </p>
+            </label>
+            <label class="question-container__section__card">
+              <input
+                type="radio"
+                name="relation-to-the-student"
+                value="other"
+              />
+              <p class="question-container__section__card__label">Other</p>
+            </label>
+          </div>
+          <button class="continue-button" type="submit">Continue</button>
+        </form>
+      </div>
+    </div>
+    <script src="../../src/script.js"></script>
+  </body>
+</html>

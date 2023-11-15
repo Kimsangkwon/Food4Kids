@@ -1,0 +1,25 @@
+.continue-button {
+  display: flex;
+  width: 398px;
+  height: 49px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: none;
+  background: #ba409a;
+  box-shadow: 0px 3px 0px 0px #7c2365;
+  margin-top: 36px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.continue-button_noMargin {
+  margin-top: 0;
+}
+.continue-button:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}

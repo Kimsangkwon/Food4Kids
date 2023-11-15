@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Administrator Questions</title>
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body>
+    <div class="status-container"></div>
+    <div class="container container_non-gap">
+      <div class="progress-bar-container">
+        <div class="progress-bar">
+          <a class="progress-bar__previous"
+            ><img
+              src="../../Images/navigate_previous.jpg"
+              alt="navigate_previous"
+          /></a>
+          <div class="progress-bar__frame">
+            <div class="progress-bar__frame__green__20"></div>
+          </div>
+        </div>
+      </div>
+      <form action="#" method="post" class="question-container">
+        <h1 class="question-title">
+          What is the contact information for the child's family?
+        </h1>
+        <div class="question-container__parent-1">
+          <div class="question-container__parent-1__field">
+            <label>First Name</label>
+            <input
+              type="text"
+              placeholder="First Name"
+              name="firstName-child"
+              required
+            />
+          </div>
+          <div class="question-container__parent-1__field">
+            <label>Last Name</label>
+            <input
+              type="text"
+              placeholder="Last Name"
+              name="lastName-child"
+              required
+            />
+          </div>
+          <div class="question-container__parent-1__field">
+            <label>Email</label>
+            <input
+              type="email"
+              placeholder="email@address.com"
+              name="email-child"
+              required
+            />
+          </div>
+          <div class="question-container__parent-1__field">
+            <label>Phone Number</label>
+            <input
+              type="tel"
+              placeholder="(###) ###-####"
+              name="phoneNumber-child"
+              required
+            />
+          </div>
+        </div>
+        <button class="continue-button" type="submit">Continue</button>
+      </form>
+    </div>
+    <script src="../../src/script.js"></script>
+  </body>
+</html>

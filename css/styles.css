@@ -1,0 +1,23 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&family=Nunito:wght@400;600&family=Raleway:wght@300;500;700&display=swap");
+
+/*Components*/
+@import "components/button-continue.css";
+@import "components/container.css";
+@import "components/progress-bar.css";
+
+/*Screens*/
+@import "screens/intro/language.css";
+@import "screens/intro/welcome.css";
+@import "screens/intro/relation.css";
+@import "screens/parent/parent-1.css";
+@import "screens/thankyou.css";
+body {
+  font-family: Nunito Sans;
+  height: 932px;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffff;
+}

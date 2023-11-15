@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parent Questions</title>
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body>
+    <div class="status-container"></div>
+    <div class="container">
+      <div class="progress-bar-container">
+        <div class="progress-bar">
+          <a class="progress-bar__previous"
+            ><img
+              src="../../Images/navigate_previous.jpg"
+              alt="navigate_previous"
+          /></a>
+          <div class="progress-bar__frame">
+            <div class="progress-bar__frame__green__50"></div>
+          </div>
+        </div>
+      </div>
+      <div class="question-container">
+        <h1 class="question-title">
+          What is your total monthly income, including government support and
+          child tax credit?
+        </h1>
+        <form action="#" method="post" class="question-container">
+          <div class="question-container__section">
+            <label
+              class="question-container__section__card question-container__section__card_heightTo72"
+            >
+              <input
+                type="radio"
+                name="monthly-income"
+                value="Less-than-$1,000"
+                required
+              />
+              Less than $1,000
+            </label>
+            <label
+              class="question-container__section__card question-container__section__card_heightTo72"
+            >
+              <input
+                type="radio"
+                name="monthly-income"
+                value="$1,000-$2,000"
+                required
+              />
+              <p class="question-container__section__card__label">
+                $1,000 - $2,000
+              </p>
+            </label>
+            <label
+              class="question-container__section__card question-container__section__card_heightTo72"
+            >
+              <input
+                type="radio"
+                name="monthly-income"
+                value="$2,000-$4,000"
+                required
+              />
+              <p class="question-container__section__card__label">
+                $2,000 - $4,000
+              </p>
+            </label>
+            <label
+              class="question-container__section__card question-container__section__card_heightTo72"
+            >
+              <input
+                type="radio"
+                name="monthly-income"
+                value="$4,000-$6,000"
+                required
+              />
+              <p class="question-container__section__card__label">
+                $4,000 - $6,000
+              </p>
+            </label>
+            <label
+              class="question-container__section__card question-container__section__card_heightTo72"
+            >
+              <input
+                type="radio"
+                name="monthly-income"
+                value="More-than-$6,000"
+                required
+              />
+              <p class="question-container__section__card__label">
+                More than $6,000
+              </p>
+            </label>
+          </div>
+          <button class="continue-button" type="submit">Continue</button>
+        </form>
+      </div>
+    </div>
+    <script src="../../src/script.js"></script>
+  </body>
+</html>
